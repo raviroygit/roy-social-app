@@ -1,5 +1,5 @@
 import React from "react";
-import { Menu, Container, Icon } from "semantic-ui-react";
+import { Menu, Container, Icon , Header} from "semantic-ui-react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 
@@ -24,6 +24,14 @@ function Navbar() {
             Signup
           </Menu.Item>
         </Link>
+        <Link href="/signup">
+          <Menu.Item header active={isActive("/")}>
+            <Icon size="large" name="brand" />
+            Roy Social app
+          </Menu.Item>
+          </Link>
+
+
       </Container>
     </Menu>
   );

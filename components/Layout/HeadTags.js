@@ -13,6 +13,8 @@ const HeadTags = () => (
       <link rel="stylesheet" type="text/css" href="/nprogress.css" />
 
       <title>Mini Social Media</title>
+
+      <header><h1 style={{color:"green"}}><a target="_blank" href="https://codelength.net">Roy Social app</a></h1></header>
     </Head>
   </>
 );
